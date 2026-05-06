@@ -1,4 +1,5 @@
 package com.example.testsdemo.facturation;
 
-public class NotificationService {
+public interface NotificationService {
+    void envoyerEmail(String email, String message);
 }
